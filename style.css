@@ -1,0 +1,197 @@
+
+
+.clearfix:before
+.clearfix:af
+ter {
+  content: " ";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+
+
+.content-wrapper {
+	width: 1080px;
+	background: transparent;
+	margin: 0 ;
+}
+
+
+/* ---------------------------------------------------------------
+This sets a universal font, size, and font-color for the page. 
+Most of this will likely be overridden by section / div specific styles
+---------------------------------------------------------------  */
+body {
+	font-family: "Open Sans", sans-serif;
+	font-size: 10px;
+	color: #939393; 
+	margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline; /* This flushes everything to the baseline of the section (no odd spacing)*/
+}
+
+a {
+	text-decoration: none;
+	color: #939393;
+}
+
+
+h3 {
+	font-size: 1em;
+	margin: 0;
+	color: #FFFFFF;
+	font-weight: 100;
+	font-family: Impact;
+}
+
+h4 {
+	font-size: .7em;
+	margin: 0;
+	color: #grey;
+	font-weight: 100;
+}
+
+
+
+/* -----------------  HEADER / MENU RELATED CSS --------------------*/
+
+#main-logo {
+	float: left;
+	margin: 25px 100px 0px 90px;
+}
+
+#main-logo img {
+	height:20px;
+
+}
+nav.top-nav{
+	margin-left: 30px;
+}
+
+nav.top-nav ul {
+	list-style: none;
+	border: 0;
+	padding: 0;
+	font-family: Helvetica;
+}
+
+
+nav.top-nav ul li a {
+	float: left;
+	display: inline-block;
+	padding: 30px 20px 30px 20px;
+	margin-left: 20px;
+	-webkit-border-radius: 1px; /* allows for cross-browswer compatibility */
+    border-radius: 1px;
+}
+
+
+nav.top-nav ul li a:hover {
+	background: #2a2a2c;
+	color: #FFFFFF;
+}
+
+
+
+/* -----------------  BODY SECTION 1 RELATED CSS --------------------*/
+
+/* ---------------------------------------------------------------
+Images have been split into 2 rows (top and bottom) to prevent 
+images from stacking horizontally as browser sizes change.  
+---------------------------------------------------------------  */
+
+section.hero-unit section.content-wrapper {background: transparent url(background.jpg) no-repeat;}
+section.hero-unit div.content-wrapper {background: transparent; padding: 70px 0 0 0;}
+
+.ourwork-wrapper {
+	width: 1400px;
+	height: 600px;
+	float: left;
+	margin-top: -10px;
+	background: transparent url(background.jpg) ;
+}
+
+.ourwork-wrapper .portfolio {
+	margin-left: 75px;
+	font-size: 2em;
+	padding-top: 20px;
+	clear: left;
+}
+
+.ourwork-wrapper .portfolio_work {
+	margin-left: 90px;
+	font-size: 2em;
+	padding-top: 20px;
+	clear: left;
+}
+
+.ourwork-wrapper .portfolio img {
+	
+	padding-top: 0px;
+	padding-left: 15px;
+	clear: left;
+	width: 265px;
+	height: 180px;
+}
+
+
+
+
+/* ---------------------------------------------------------------
+Captions have been aligned using a 3 column layout.
+Each column contains 2 images and their respective captions. 
+Styling for the 
+---------------------------------------------------------------  */
+
+.ourwork-wrapper .portfolio .caption_col1 {
+	font-size: 1em;
+	clear: left;
+	width: 265px;
+	height: 25px;
+	background-color: #FFFFFF;
+	margin-left: 15px;
+	margin-top: -5px;
+	padding-top: 10px;
+	text-align: center;
+}
+
+
+.ourwork-wrapper .portfolio .caption_col2 {
+	font-size: 1em;
+	clear: left;
+	width: 265px;
+	height: 25px;
+	background-color: #FFFFFF;
+	margin-left: 301px;
+	margin-top: -35px;
+	padding-top: 10px;
+	text-align: center;
+}
+
+
+.ourwork-wrapper .portfolio .caption_col3 {
+	font-size: 1em;
+	clear: left;
+	width: 265px;
+	height: 25px;
+	background-color: #FFFFFF;
+	margin-left: 587px;
+	margin-top: -35px;
+	padding-top: 10px;
+	text-align: center;
+}
+
+.h5{
+	font-family: Impact;
+	font-size: 30px;
+}
+
+
+
+
+
+
+
