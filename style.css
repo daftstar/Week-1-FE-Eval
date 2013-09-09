@@ -35,22 +35,34 @@ body {
 
 a {
 	text-decoration: none;
-	color: #939393;
+	color: #252525;
+	font-family:'Merriweather Sans', Impact;
+
 }
 
 
 h3 {
 	font-size: 1em;
 	margin: 0;
+	color: #EF5A5B;
+	font-weight: 100;
+	font-family: 'Merriweather Sans',Impact, sans-serif;
+}
+
+h3 span {
+	font-size: 1em;
+	margin: 0;
 	color: #FFFFFF;
 	font-weight: 100;
-	font-family: Impact;
+	font-family: 'Merriweather Sans',Impact, sans-serif;
 }
+
 
 h4 {
 	font-size: .7em;
 	margin: 0;
-	color: #grey;
+	font-family: 'Gudea', sans-serif;
+	color: gray;
 	font-weight: 100;
 }
 
@@ -75,7 +87,6 @@ nav.top-nav ul {
 	list-style: none;
 	border: 0;
 	padding: 0;
-	font-family: Helvetica;
 }
 
 
@@ -84,8 +95,8 @@ nav.top-nav ul li a {
 	display: inline-block;
 	padding: 30px 20px 30px 20px;
 	margin-left: 20px;
-	-webkit-border-radius: 1px; /* allows for cross-browswer compatibility */
-    border-radius: 1px;
+	-webkit-border-radius: 2px; /* allows for cross-browswer compatibility */
+    border-radius: 2px;
 }
 
 
@@ -183,6 +194,23 @@ Styling for the
 	padding-top: 10px;
 	text-align: center;
 }
+
+
+.portfolio .caption_col1:hover {
+	background: #2a2a2c;
+}
+
+.portfolio .caption_col2:hover {
+	background: #2a4a2c;
+}
+
+.portfolio .caption_col3:hover {
+	background: #2a6a2c;
+}
+
+
+
+
 
 
 
